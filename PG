@@ -1,0 +1,9 @@
+Import random 
+upper="ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+lower="abcdefghijklmnopqrstuvwxyz" 
+Symbol="@#?!$" 
+Number="0123456789" 
+all=upper+lower+Symbol+Number 
+Length=8 #what length you need 
+Password=' '.join(random.sample(all,Length)) 
+Print(Password)
